@@ -6,7 +6,7 @@ function runTheClock() {
     var date = new Date();
     console.log(date);
 
-    let hr = date.getHours() + 1;
+    let hr = date.getHours();
     let min = date.getMinutes();
     let sec = date.getSeconds();
     console.log("Hour: " + hr + " Minute: " + min + " Second: " + sec);
